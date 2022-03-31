@@ -21,7 +21,7 @@ class RecommendedHouse extends StatelessWidget {
                 },
                 child: Container(
                   width: 230,
-                  padding: EdgeInsets.all(10),
+                  padding: EdgeInsets.all(0),
                   decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(8)),
@@ -39,8 +39,8 @@ class RecommendedHouse extends StatelessWidget {
                         right: 15,
                         top: 15,
                         child: CircleIconButton(
-                            iconUrl: 'assets/icons/mark.svg',
-                            color: Theme.of(context).accentColor),
+                            iconUrl: 'assets/icons/heart.svg',
+                            color: Colors.white24),
                       ),
                       Positioned(
                           bottom: 0,
