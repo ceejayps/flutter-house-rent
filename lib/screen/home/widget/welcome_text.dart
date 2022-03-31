@@ -9,7 +9,7 @@ class WelcomeText extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            'Hello Ruize',
+            'Hello Boy, WAH NEX?',
             style: Theme.of(context)
                 .textTheme
                 .bodyText1!
@@ -17,7 +17,7 @@ class WelcomeText extends StatelessWidget {
           ),
           SizedBox(height: 10),
           Text(
-            'Find your sweet Home',
+            'Find your Next Stop',
             style: Theme.of(context)
                 .textTheme
                 .headline1!
