@@ -14,7 +14,7 @@ class SearchInput extends StatelessWidget {
               borderSide: BorderSide.none,
               borderRadius: BorderRadius.circular(8),
             ),
-            hintText: 'Search here ...',
+            hintText: 'Search party or city here ...',
             prefixIcon: Container(
               padding: EdgeInsets.all(15),
               child: SvgPicture.asset('assets/icons/search.svg'),
