@@ -78,7 +78,7 @@ class BestOffer extends StatelessWidget {
                           right: 0,
                           child: CircleIconButton(
                             iconUrl: 'assets/icons/heart.svg',
-                            color: Colors.grey,
+                            color: Colors.black26,
                           ),
                         )
                       ],
