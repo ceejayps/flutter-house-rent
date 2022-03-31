@@ -29,6 +29,7 @@ class RecommendedHouse extends StatelessWidget {
                     children: [
                       Container(
                         decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(12),
                             image: DecorationImage(
                                 image: AssetImage(
                                   recommendedList[index].imageUrl,
@@ -47,7 +48,7 @@ class RecommendedHouse extends StatelessWidget {
                           left: 0,
                           right: 0,
                           child: Container(
-                            color: Colors.white54,
+                            color: Color.fromARGB(223, 46, 46, 46),
                             padding: EdgeInsets.all(10),
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -61,7 +62,8 @@ class RecommendedHouse extends StatelessWidget {
                                             .headline1!
                                             .copyWith(
                                                 fontSize: 16,
-                                                fontWeight: FontWeight.bold)),
+                                                fontWeight: FontWeight.bold,
+                                                color: Colors.white)),
                                     SizedBox(
                                       height: 5,
                                     ),
@@ -72,7 +74,8 @@ class RecommendedHouse extends StatelessWidget {
                                           .bodyText1!
                                           .copyWith(
                                               fontSize: 12,
-                                              fontWeight: FontWeight.bold),
+                                              fontWeight: FontWeight.bold,
+                                              color: Colors.white),
                                     )
                                   ],
                                 ),
