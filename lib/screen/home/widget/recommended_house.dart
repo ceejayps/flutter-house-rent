@@ -49,8 +49,10 @@ class RecommendedHouse extends StatelessWidget {
                           right: 0,
                           child: Container(
                             decoration: BoxDecoration(
-                              color: Color.fromARGB(157, 46, 46, 46),
-                            ),
+                                color: Color.fromARGB(157, 46, 46, 46),
+                                borderRadius: BorderRadius.only(
+                                    bottomLeft: Radius.circular(12),
+                                    bottomRight: Radius.circular(12))),
                             padding: EdgeInsets.all(10),
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
