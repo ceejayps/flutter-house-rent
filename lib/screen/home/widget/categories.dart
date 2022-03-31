@@ -6,12 +6,7 @@ class Categories extends StatefulWidget {
 }
 
 class _CategoriesState extends State<Categories> {
-  final categoriesList = [
-    'Top Recommended',
-    'Near You',
-    'Agency Recommended',
-    'Most Popular'
-  ];
+  final categoriesList = ['Recommended', 'Near You', 'Most Popular'];
   int currentSelect = 0;
 
   @override
