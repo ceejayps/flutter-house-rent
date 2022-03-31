@@ -14,6 +14,7 @@ class _CategoriesState extends State<Categories> {
     return Container(
       height: 35,
       child: ListView.separated(
+          shrinkWrap: true,
           padding: EdgeInsets.symmetric(horizontal: 20),
           scrollDirection: Axis.horizontal,
           itemBuilder: (context, index) => GestureDetector(
