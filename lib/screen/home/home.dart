@@ -19,7 +19,7 @@ class HomePage extends StatelessWidget {
           children: [
             WelcomeText(),
             SearchInput(),
-            Categories(),
+            Center(child: Categories()),
             RecommendedHouse(),
             BestOffer()
           ],
